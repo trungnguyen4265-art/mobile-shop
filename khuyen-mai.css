@@ -1,0 +1,58 @@
+/* ===== CSS RIÊNG CHO TRANG KHUYẾN MÃI ===== */
+/* Thẻ chương trình khuyến mãi */
+.promo {
+    float: left;
+    width: 300px;
+    margin: 10px;
+    border: 1px solid #dddddd;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+}
+
+.promo img {
+    width: 100%;
+}
+
+.promo h3 {
+    color: #2c3e50;
+    margin-top: 10px;
+}
+
+.promo p {
+    color: #777777;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* Nhãn tròn ở góc trên bên phải */
+.promo-tag {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    background-color: #f39c12;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Hộp mã giảm giá */
+.coupon {
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 3px dashed #e74c3c;
+    background-color: #fdf2f0;
+    text-align: center;
+}
+
+.code {
+    font-size: 32px;
+    font-weight: bold;
+    color: #e74c3c;
+    letter-spacing: 5px;
+}

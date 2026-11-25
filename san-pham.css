@@ -1,0 +1,37 @@
+/* ===== CSS RIÊNG CHO TRANG SẢN PHẨM ===== */
+.product {
+    float: left;
+    width: 300px;
+    margin: 10px;
+    border: 1px solid #dddddd;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+}
+
+.product img {
+    width: 100%;
+}
+
+.product h3 {
+    font-size: 18px;
+    margin: 10px 0 5px 0;
+}
+
+.price {
+    color: #e74c3c;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Nhãn "Mới" nằm đè lên góc ảnh */
+.badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #27ae60;
+    color: #ffffff;
+    padding: 2px 10px;
+    font-size: 14px;
+}
