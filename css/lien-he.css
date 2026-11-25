@@ -1,0 +1,73 @@
+/* ===== CSS RIÊNG CHO TRANG LIÊN HỆ ===== */
+/* Cột trái: thông tin */
+.contact-info {
+    float: left;
+    width: 460px;
+    padding-left: 20px;
+}
+
+.contact-info h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+/* Bảng thông tin */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #dddddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #ecf0f1;
+    width: 120px;
+}
+
+/* Cột phải: bản đồ */
+.contact-map {
+    float: right;
+    width: 460px;
+    padding-right: 20px;
+}
+
+.contact-map img {
+    width: 100%;
+}
+
+/* Form liên hệ */
+.form-section {
+    background-color: #ecf0f1;
+}
+
+.contact-form {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+.contact-form .btn {
+    margin-top: 15px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
